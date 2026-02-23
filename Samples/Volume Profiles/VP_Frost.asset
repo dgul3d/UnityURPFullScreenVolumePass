@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6511474223010977899
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomFullScreenPass
+  m_EditorClassIdentifier: FullScreenVolumePass:FullScreenVolumePass:CustomFullScreenPass
+  active: 1
+  isEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  injectionPoint:
+    m_OverrideState: 0
+    m_Value: 0
+  requirements:
+    m_OverrideState: 0
+    m_Value: 0
+  fetchColorBuffer:
+    m_OverrideState: 1
+    m_Value: 1
+  bindDepthStencil:
+    m_OverrideState: 0
+    m_Value: 0
+  passMaterial:
+    m_OverrideState: 1
+    m_Value: {fileID: -876546973899608171, guid: f36f31a12f4d7e84797d488fe3edbd7f, type: 3}
+  passIndex:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-3951495250318398948
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be70f9f3f759404ba8cafd69f0ff58a, type: 3}
+  m_Name: MyFullscreenEffectVolume
+  m_EditorClassIdentifier: Assembly-CSharp::MyFullscreenEffectVolume
+  active: 1
+  isEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  injectionPoint:
+    m_OverrideState: 0
+    m_Value: 0
+  requirements:
+    m_OverrideState: 0
+    m_Value: 0
+  fetchColorBuffer:
+    m_OverrideState: 1
+    m_Value: 1
+  bindDepthStencil:
+    m_OverrideState: 0
+    m_Value: 0
+  passMaterial:
+    m_OverrideState: 1
+    m_Value: {fileID: -876546973899608171, guid: f36f31a12f4d7e84797d488fe3edbd7f, type: 3}
+  passIndex:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: VP_Frost
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components:
+  - {fileID: 5887078655373479876}
+--- !u!114 &5887078655373479876
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be70f9f3f759404ba8cafd69f0ff58a, type: 3}
+  m_Name: FullScreenVolumePassVolumeComponent
+  m_EditorClassIdentifier: FullScreenVolumePass::FullScreenVolumePass.FullScreenVolumePassVolumeComponent
+  active: 1
+  isEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 0
+    m_Value: 1
+  injectionPoint:
+    m_OverrideState: 0
+    m_Value: 0
+  requirements:
+    m_OverrideState: 0
+    m_Value: 0
+  fetchColorBuffer:
+    m_OverrideState: 1
+    m_Value: 0
+  bindDepthStencil:
+    m_OverrideState: 0
+    m_Value: 0
+  passMaterial:
+    m_OverrideState: 1
+    m_Value: {fileID: 2100000, guid: cf75b12854881aa4db484b66da071f10, type: 2}
+  passIndex:
+    m_OverrideState: 0
+    m_Value: 0
