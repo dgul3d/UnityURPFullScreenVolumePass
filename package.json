@@ -1,6 +1,6 @@
 {
   "name": "com.gulievstudio.fullscreenvolumepass",
-  "displayName": "FullScreenVolumePass",
+  "displayName": "URP Fullscreen Volume Pass",
   "version": "0.1.0",
   "unity": "6000.0",
   "unityRelease": "0f1",
@@ -13,7 +13,7 @@
     "url": "https://github.com/dgul3d",
     "email": "dguliev.mail@gmail.com"
   },
-  "changelogUrl": "https://example.com/changelog.html",
-  "documentationUrl": "https://example.com/",
-  "licensesUrl": "https://example.com/licensing.html"
+  "changelogUrl": "https://github.com/dgul3d/UnityURPFullScreenVolumePass/blob/master/CHANGELOG.md",
+  "documentationUrl": "https://github.com/dgul3d/UnityURPFullScreenVolumePass/blob/master/README.md",
+  "licensesUrl": "https://github.com/dgul3d/UnityURPFullScreenVolumePass/blob/master/LICENSE.md"
 }
